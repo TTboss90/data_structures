@@ -3,7 +3,9 @@
 
     "Src_paths":[],
 
-    "Include_paths":[],
+    "Include_paths":[
+        ".\\include"
+    ],
 
     "file_flags":{},
 
