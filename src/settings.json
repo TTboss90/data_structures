@@ -1,0 +1,22 @@
+{//settings for my build sys(CCrafter)
+    "flags":[],
+
+    "Src_paths":[],
+
+    "Include_paths":[],
+
+    "file_flags":{},
+
+    "libraries": [],
+
+    "deps":[],
+
+    "Out_structure":[],
+
+    "Out_Files":{},
+
+    "Post_script":".\\out\\bin\\main.exe",
+
+    "Out_type":"exec",
+    "Out_File":"main.exe"
+}

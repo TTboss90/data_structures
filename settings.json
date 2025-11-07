@@ -1,0 +1,8 @@
+{//settings for my build sys(CCrafter)
+    "Compiler":["gcc"],
+    "archiver":["ar","rcs"],
+
+    "Projects":[
+        ".\\src"
+    ]
+}
