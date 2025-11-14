@@ -1,12 +1,12 @@
-typedef struct single_Node
+typedef struct sll_Node
 {
     void* data;
-    struct single_Node* next;
-} single_Node;
+    struct sll_Node* next;
+} sll_Node;
 
-void free_Linked_List(single_Node* list);
-void print_Linked_List(single_Node* list);
-single_Node* make_single_Linked_List();
-void add_data_to_Front_Linked_List(single_Node* list,void* data);
-void add_data_to_Back_Linked_List(single_Node* list,void* data);
-void add_data_add_index_Linked_list(single_Node* list,void* data,int index);
+void sll_free(sll_Node* list);
+void sll_print(sll_Node* list);
+sll_Node* sll_create();
+void sll_push_front(sll_Node* list,void* data);
+void sll_push_back(sll_Node* list,void* data);
+void sll_add_at(sll_Node* list,void* data,int index);

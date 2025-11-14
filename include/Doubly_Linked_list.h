@@ -1,6 +1,6 @@
-typedef struct Doubly_Node
+typedef struct dll_Node
 {
     void* data;
-    struct Doubly_Node* next;
-    struct Doubly_Node* back;
-} Doubly_Node;
+    struct dll_Node* next;
+    struct dll_Node* back;
+} dll_Node;
